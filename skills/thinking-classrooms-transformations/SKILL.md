@@ -37,12 +37,22 @@ When order is ambiguous or non-canonical, rewrite into **stretch → reflect →
 
 - Fully simplify / expand; do **not** leave factored translation forms
 - Example: \((x,y)\to\bigl(2(x+3),\,y\bigr)\) → \((x,y)\to(2x+6,\,y)\)
+- Include **stretch** mappings routinely (provincial diploma commentary: translations/reflections in mapping form are stronger than stretches)
+
+## Diploma alignment (transformations)
+
+Prefer at least one item per sheet that targets a provincial weak spot from the Math 30–1 Information Bulletin 2025–2026 commentary:
+
+- Mapping notation that includes a horizontal and/or vertical **stretch**
+- Counting or identifying **invariant points** for a non-reflection transformation (or a combined transformation)
+- Verbal explanations in `\answer{...}` that use full transformation vocabulary (no abbreviations), matching review-math-30 expectations
 
 ## Typical conversion sets
 
 1. Give one form; ask for the other two
 2. Give a non-canonical / unfactored form; ask for all three forms (solutions rewrite to SRT)
 3. Rotate which form is given (verbal / equation / mapping) across parts
+4. Include a stretch-focused mapping conversion and/or an invariant-point follow-up
 
 ## Graph and point items
 
@@ -58,4 +68,5 @@ When order is ambiguous or non-canonical, rewrite into **stretch → reflect →
 - [ ] General TC skill conventions followed
 - [ ] Questions name the three forms when relevant; SRT appears in solutions only
 - [ ] Equations factored/canonical in solutions; mappings expanded in solutions
+- [ ] Stretch mappings and/or non-reflection invariant points appear where the sheet allows
 - [ ] Graph items use shared axes, lattice-friendly points, and roomy B&W-safe styling

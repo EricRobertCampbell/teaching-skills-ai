@@ -12,7 +12,7 @@ This repo is the source of truth for personal agent skills. On this machine it i
 
 | Skill | Path | Purpose |
 | --- | --- | --- |
-| **review-math-30** | `skills/review-math-30/` | Review Math 30-1 lessons, worksheets, quizzes, tests, and keys for appropriateness and math notation. |
+| **review-math-30** | `skills/review-math-30/` | Review Math 30-1 lessons, worksheets, quizzes, tests, and keys for appropriateness and math notation (includes diploma commentary–informed general and unit checks). |
 | **thinking-classrooms-worksheets** | `skills/thinking-classrooms-worksheets/` | Create Thinking Classrooms (`worksheet-tc-*.tex`) worksheets with worked solutions in the course LaTeX style. |
 | **thinking-classrooms-transformations** | `skills/thinking-classrooms-transformations/` | Unit-specific TC rules for transformations (verbal / variable replacement / mapping, SRT order). |
 
@@ -23,6 +23,7 @@ Each skill lives in its own folder with a `SKILL.md` that Cursor loads when the 
 ```text
 teaching-skills/
 ├── README.md
+├── data/                     # Source diploma bulletin(s) used to update review criteria
 └── skills/
     ├── review-math-30/
     │   └── SKILL.md
@@ -31,6 +32,10 @@ teaching-skills/
     └── thinking-classrooms-transformations/
         └── SKILL.md
 ```
+
+## Diploma report source
+
+General and unit sections in `review-math-30` incorporate commentary from the Mathematics 30–1 Information Bulletin **2025–2026** (see `data/`, including a link to the original Alberta.ca URL).
 
 ## Setup
 
