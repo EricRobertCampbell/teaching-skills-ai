@@ -23,7 +23,7 @@ Each skill lives in its own folder with a `SKILL.md` that Cursor loads when the 
 ```text
 teaching-skills/
 ├── README.md
-├── diploma-reports/          # Alberta diploma bulletin(s) used to update review criteria
+├── data/                     # Source diploma bulletin(s) used to update review criteria
 └── skills/
     ├── review-math-30/
     │   └── SKILL.md
@@ -35,7 +35,7 @@ teaching-skills/
 
 ## Diploma report source
 
-General and unit sections in `review-math-30` incorporate commentary from the Mathematics 30–1 Information Bulletin **2025–2026** (see `diploma-reports/`).
+General and unit sections in `review-math-30` incorporate commentary from the Mathematics 30–1 Information Bulletin **2025–2026** (see `data/`, including a link to the original Alberta.ca URL).
 
 ## Setup
 

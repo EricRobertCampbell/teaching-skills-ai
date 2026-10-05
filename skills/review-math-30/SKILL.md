@@ -11,7 +11,7 @@ description: >-
 
 Review Alberta **Mathematics 30-1** instructional and assessment materials (lessons, worksheets, quizzes, unit tests, diploma practice, keys).
 
-Provincial diploma commentary (Alberta Education and Childcare, *Mathematics 30–1 Information Bulletin 2025–2026*) informs the general and unit checks below. Local copy: `diploma-reports/math-30-1-information-bulletin-2025-2026.pdf`.
+Provincial diploma commentary (Alberta Education and Childcare, *Mathematics 30–1 Information Bulletin 2025–2026*) informs the general and unit checks below. Local copy: `data/math-30-1-information-bulletin-2025-2026.pdf`.
 
 ## Workflow
 
