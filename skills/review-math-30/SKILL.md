@@ -2,28 +2,30 @@
 name: review-math-30
 description: >-
   Review Alberta Mathematics 30-1 assessments, worksheets, lessons, and keys
-  for course-level appropriateness and correct mathematical notation. Use when
-  checking Math 30-1 materials, diploma-style items, quizzes, TC worksheets, or
-  unit content for accuracy and conventions.
+  for course-level appropriateness, curricular alignment, difficulty balance,
+  timing, and correct mathematical notation. Use when checking Math 30-1
+  materials, diploma-style items, quizzes, daily quizzes, assignments, TC
+  worksheets, or unit content for accuracy and conventions.
 ---
 
 # Review Math 30-1
 
-Review Alberta **Mathematics 30-1** instructional and assessment materials (lessons, worksheets, quizzes, unit tests, diploma practice, keys).
+Review Alberta **Mathematics 30-1** instructional and assessment materials (lessons, worksheets, quizzes, daily quizzes, assignments, unit tests, diploma practice, keys).
 
 Provincial diploma commentary (Alberta Education and Childcare, *Mathematics 30–1 Information Bulletin 2025–2026*) informs the general and unit checks below. Local copy: `data/math-30-1-information-bulletin-2025-2026.pdf`.
 
 ## Workflow
 
-1. Identify the unit / outcomes the material claims to address.
+1. Identify the component type (quiz, daily quiz, assignment, test, worksheet, etc.) and the unit / outcomes it claims to address.
 2. Run the **general checks** below on every item.
-3. Read and apply any filled-in **unit section** that matches the material.
-4. Report findings by severity; prefer concrete fixes (rewrite the prompt/notation) over vague notes.
+3. For graded components (quiz, daily quiz, assignment, test), also run the **component checks**.
+4. Read and apply any filled-in **unit section** that matches the material.
+5. Report findings by severity; prefer concrete fixes (rewrite the prompt/notation, reweight points, cut/add items) over vague notes.
 
 ## Report format
 
-- **Must fix**: incorrect math, wrong level for 30-1, broken notation that misleads students
-- **Should fix**: convention drift, unclear wording, weak alignment to the claimed outcome
+- **Must fix**: incorrect math, wrong level for 30-1, broken notation that misleads students, major outcome mismatch, timing or difficulty balance that makes the component unfair
+- **Should fix**: convention drift, unclear wording, weak alignment to the claimed outcome, mild skew in difficulty or length
 - **Optional**: polish, wording preference, stretch/enrichment ideas
 
 For each issue: cite the item (question number / section), state the problem, and give a corrected version when possible.
@@ -78,6 +80,38 @@ Prefer practice and assessment weight on provincial weak spots; keep provincial 
 - Trig equations needing **identity substitution**; identity work with conjugates, double angles, rational operations
 - Counting with **three or more constraints** / multiple cases; binomial **specific terms** with non-linear parts
 
+---
+
+## Component checks
+
+Apply these when reviewing a **quiz**, **daily quiz**, **assignment**, or similar graded component.
+
+### Curricular objectives
+
+- Check that the component meets the curricular objectives it claims to assess
+- Every scored item should map to at least one stated outcome / topic for the unit (or an intentional review outcome)
+- Weight (points) should roughly track instructional emphasis; do not bury a major outcome in a 1-point item while padding a minor skill
+
+### Difficulty distribution (by points)
+
+- Classify each question (or part) as **easy**, **medium**, or **hard**, then sum points in each band
+- Expect a **fair distribution** of easy, medium, and hard questions **by points value** — not only by question count
+- Flag components that are almost all easy, almost all hard, or where most of the marks sit in one difficulty band
+- Hard items may exist, but weaker students should still be able to earn a solid share of marks from easy/medium work
+
+### Timing / length
+
+Judge length so weaker students can finish without rushing:
+
+| Component | Target completion time | Notes |
+| --- | --- | --- |
+| **Quiz** | **40–60 minutes** | Even weaker students should complete it in this window |
+| **Daily quiz** | **&lt; 10 minutes** | Short, focused check |
+| **Assignment** | **&lt; 60 minutes** | Open-book |
+
+- Estimate time from item type (MC/NR vs multi-step WR), graphing, and calculator use — not page count alone
+- **Must fix** if a weaker student would clearly need more than the target; **Should fix** if length sits at the edge or uneven pacing is likely
+- For assignments, remember open-book access; do not treat lookup time as closed-book test pace
 ---
 
 ## Unit sections

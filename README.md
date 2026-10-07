@@ -1,6 +1,6 @@
 # Teaching Skills
 
-Cursor Agent skills for Alberta **Mathematics 30-1** teaching materials: Writing Thinking Classrooms worksheets and reviewing assessments for course-level fit and correct notation.
+Cursor Agent skills for Alberta **Mathematics 30-1** teaching materials: Writing Thinking Classrooms worksheets and reviewing assessments for course-level fit, component fairness, unit balance, and correct notation.
 
 This repo is the source of truth for personal agent skills. On this machine it is linked at `~/.agents`, so Cursor picks up the skills from here.
 
@@ -12,7 +12,8 @@ This repo is the source of truth for personal agent skills. On this machine it i
 
 | Skill | Path | Purpose |
 | --- | --- | --- |
-| **review-math-30** | `skills/review-math-30/` | Review Math 30-1 lessons, worksheets, quizzes, tests, and keys for appropriateness and math notation (includes diploma commentary–informed general and unit checks). |
+| **review-math-30** | `skills/review-math-30/` | Review a single Math 30-1 component (or lesson/key) for notation, curricular fit, difficulty-by-points, and timing (includes diploma commentary–informed general and unit checks). |
+| **review-math-30-unit** | `skills/review-math-30-unit/` | Review a full unit assessment package: each piece via review-math-30, plus weight, balance, duplication, and coverage gaps. |
 | **thinking-classrooms-worksheets** | `skills/thinking-classrooms-worksheets/` | Create Thinking Classrooms (`worksheet-tc-*.tex`) worksheets with worked solutions in the course LaTeX style. |
 | **thinking-classrooms-transformations** | `skills/thinking-classrooms-transformations/` | Unit-specific TC rules for transformations (verbal / variable replacement / mapping, SRT order). |
 
@@ -26,6 +27,8 @@ teaching-skills/
 ├── data/                     # Source diploma bulletin(s) used to update review criteria
 └── skills/
     ├── review-math-30/
+    │   └── SKILL.md
+    ├── review-math-30-unit/
     │   └── SKILL.md
     ├── thinking-classrooms-worksheets/
     │   └── SKILL.md
